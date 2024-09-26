@@ -11,7 +11,8 @@ legend{
     color: #000000;
     background-color: rgb(255, 255, 255);
     position: fixed;
-    right: 100px;
+    right: 50px;
+    bottom: 5px;
     border-radius: 9px;
-    border: 2px solid ;
+    border: 2px solid;
 }
