@@ -1,0 +1,17 @@
+.main-container{
+    display:flex;
+    justify-content: center;
+}
+
+legend{
+    text-align: center;
+}
+
+#next-btn{
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 100px;
+    border-radius: 9px;
+    border: 2px solid ;
+}
