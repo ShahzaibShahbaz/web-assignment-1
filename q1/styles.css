@@ -1,0 +1,12 @@
+hr{
+    margin-top: 0
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: orange !important;
+}

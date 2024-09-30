@@ -4,8 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,23 +14,54 @@
   <body>
    
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="images/abelton.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-      Bootstrap
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span>menu </span>
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="images/abelton.jpg" alt="Logo" width="100">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav flex-grow-1"> 
+          <li class="nav-item">
+            <a href="live" class="nav-link">Live</a>
+          </li>
+          <li class="nav-item">
+            <a href="push" class="nav-link">Push</a>
+          </li>
+          <li class="nav-item">
+            <a href="note" class="nav-link">Note</a>
+          </li>
+          <li class="nav-item">
+            <a href="link" class="nav-link">Link</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="packs" class="nav-link">Packs</a>
+          </li>
+          <li class="nav-item">
+            <a href="help" class="nav-link">Help</a>
+          </li>
+          <li class="nav-item">
+            <a href="more" class="nav-link">More+</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto"> <!-- Use 'ml-auto' for Bootstrap 4 -->
+          <li class="nav-item">
+            <a href="try" class="nav-link">Try Live 12 for free</a>
+          </li>
+          <li class="nav-item">
+            <a href="sign" class="nav-link">Log in or Register</a>
+          </li>
+        </ul>
       </div>
-  </nav>
+    </div>
+   </nav>
+   <hr>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
