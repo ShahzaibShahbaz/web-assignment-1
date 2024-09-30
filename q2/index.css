@@ -1,18 +1,15 @@
-.main-container{
-    display:flex;
-    justify-content: center;
+table {
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    width: 100%; /* Make the table full width */
+    border: 1px solid #ccc; /* Add a 1px solid border around the table */
 }
 
-span{
-    text-align: center;
+th, td {
+    border: 1px solid #ccc; /* Add a 1px solid border around each cell */
+    padding: 8px; /* Add padding to cells for spacing */
+    text-align: center; /* Align text in cells to the center */
 }
 
-#next-btn{
-    color: #000000;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    right: 50px;
-    bottom: 5px;
-    border-radius: 9px;
-    border: 2px solid;
+thead th {
+    background-color: #f2f2f2; /* Add a background color to the header cells */
 }
