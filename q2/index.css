@@ -13,3 +13,9 @@ th, td {
 thead th {
     background-color: #f2f2f2; /* Add a background color to the header cells */
 }
+
+span{
+    text-align: center;
+    font-size: large; 
+    font-weight: bold;
+}

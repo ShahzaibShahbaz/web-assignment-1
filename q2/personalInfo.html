@@ -9,6 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
 
   <title>Job Application</title>
 </head>
@@ -18,9 +19,10 @@
     <div class="row justify-content-center">
       <div class="col-md-6">
         <div class="card mx-auto">
-          <legend class="text-center">Personal Information</legend>
+          <legend class="text-center">Job Application</legend>
           <div class="card-body">
             <form id="personalinfo">
+              <span>Personal Information</span>
               <div class="mb-3">
                 <label for="fname" class="form-label">First Name:</label>
                 <input type="text" class="form-control" id="fname" name="fname">
@@ -31,8 +33,7 @@
                 <input type="text" class="form-control" id="lname" name="lname">
               </div>
 
-              <div class="mb-3">  
-
+              <div class="mb-3">
                 <label for="phoneNum" class="form-label">Phone Number:</label>
                 <input type="tel" class="form-control" id="phoneNum" name="phoneNum">
               </div>
@@ -57,6 +58,125 @@
                 <label for="zip" class="form-label">Zip Code:</label>
                 <input type="text" class="form-control" id="zip" name="zip">
               </div>
+              <span>Resume and Cover Letter</span>
+
+              <div class="mb-3"></div>
+                <label for="resumeUpload" class="form-label">Upload Resume:</label>
+                <input type="file" class="form-control" id="resumeUpload" name="resumeUpload">
+              </div>
+
+              <div class="mb-3">
+                <label for="coverLetter" class="form-label">Cover Letter:</label>
+                <textarea class="form-control" id="coverLetter" name="coverLetter" rows="5"></textarea>
+              </div>
+
+              <span>Education</span>
+              <div class="mb-3">
+                <label for="schoolName" class="form-label">Name of School/University:</label>
+                <input type="text" class="form-control" id="schoolName" name="schoolName">
+              </div>
+
+              <div class="mb-3">
+                <label for="major" class="form-label">Major/Area of Study:</label>
+                <input type="text" class="form-control" id="major" name="major">
+              </div>
+
+              <div class="mb-3">
+                <label for="graduationYear" class="form-label">Graduation Year:</label>
+                <input type="number" class="form-control" id="graduationYear" name="graduationYear">
+              </div>
+
+
+              <span>Previous Job Titles</span>
+
+              <div class="mb-3">
+                <label for="companyName" class="form-label">Company Name:</label>
+                <input type="text" class="form-control" id="companyName" name="companyName">
+              </div>
+
+              <div class="mb-3">
+                <label for="jobTitle" class="form-label">Job Title:</label>
+                <input type="text" class="form-control" id="jobTitle" name="jobTitle">
+              </div>
+
+              <div class="mb-3">
+                <label for="startDate" class="form-label">Start Date:</label>
+                <input type="date" class="form-control" id="startDate" name="startDate">
+              </div>
+
+              <div class="mb-3">
+                <label for="endDate" class="form-label">End Date:</label>
+                <input type="date" class="form-control" id="endDate" name="endDate">
+              </div>
+
+              <div class="mb-3">
+                <label for="jobResponsibilities" class="form-label">Job Responsibilities:</label>
+                <textarea class="form-control" id="jobResponsibilities" name="jobResponsibilities" rows="3"></textarea>
+              </div>
+
+              <span>Skills</span>
+              <div class="mb-3">
+                <label for="skills" class="form-label">Relevant Skills:</label>
+                <input type="text" class="form-control" id="skills" name="skills">
+              </div>
+          
+              <div class="mb-3">
+                <label for="certifications" class="form-label">Certifications:</label>
+                <input type="text" class="form-control" id="certifications" name="certifications">
+              </div>
+                <span>Availability</span>
+              <div class="mb-3">
+                <label for="start_date" class="form-label">Start Date:</label>
+                <input type="date" class="form-control" id="start_date" name="start_date">
+                
+                
+                </div>
+                <div class="mb-3">
+                <label for="willingness_to_relocate" class="form-label">Willingness to Relocate:</label>
+                <select class="form-control" id="willingness_to_relocate" name="willingness_to_relocate">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                </select>
+                </div>
+                <div class="mb-3">
+                <label for="preferred_work_schedule" class="form-label">Preferred Work Schedule:</label>
+                <input type="text" class="form-control" id="preferred_work_schedule" name="preferred_work_schedule">
+                </div>
+
+                <span>References</span>
+                <div class="mb-3">
+                <label for="reference_name" class="form-label">Reference Name:</label>
+                <input type="text" class="form-control" id="reference_name" name="reference_name">
+                </div>
+                <div class="mb-3">
+                <label for="reference_contact_information" class="form-label">Reference Contact Information:</label>
+                <input type="text" class="form-control" id="reference_contact_information" name="reference_contact_information">
+                </div>
+                <div class="mb-3">
+                <label for="relationship_to_applicant" class="form-label">Relationship to Applicant:</label>
+                <input type="text" class="form-control" id="relationship_to_applicant" name="relationship_to_applicant">
+                </div>
+
+                <span>Additional Questions</span>
+                <div class="mb-3">
+                <label for="why_work_for_this_company" class="form-label">Why do you want to work for this company?</label>
+                <textarea class="form-control" id="why_work_for_this_company" name="why_work_for_this_company"></textarea>
+                </div>
+
+                <span>Consent and Agreement</span>
+                <div class="mb-3">
+                <label for="terms_and_conditions" class="form-label">
+                <input style="padding-left: 10px;" type="checkbox" class="form-check-input" id="terms_and_conditions" name="terms_and_conditions">
+                I agree to the terms and conditions.
+                </label>
+                </div>
+                <div class="mb-3">
+                <label for="privacy_policy" class="form-label">
+                <input type="checkbox" class="form-check-input" id="privacy_policy" name="privacy_policy">
+                I acknowledge the privacy policy.
+                </label>
+                </div>
+
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 
