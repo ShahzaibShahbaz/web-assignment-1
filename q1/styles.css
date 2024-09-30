@@ -10,3 +10,13 @@ hr{
 .navbar .nav-link:focus {
   color: orange !important;
 }
+
+.custom-link {
+    color: rgb(0, 0, 0);
+    
+    margin-right: 15px; /* Adjust spacing as needed */
+  }
+  
+  .custom-link:hover {
+    color: orange;
+  }
